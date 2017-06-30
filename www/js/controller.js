@@ -11,4 +11,9 @@ angular.module('starter')
 		'Item 9',
 		'Item 10'
 	];
-})
+});
+
+angular.module('starter')
+.controller('controllerItemSelecionado', function($stateParams, $scope){
+	$scope.itemSelecionado = $stateParams.item;
+});
