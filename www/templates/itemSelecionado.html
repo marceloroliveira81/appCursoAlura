@@ -2,13 +2,13 @@
 	<ion-content>
 		<div class="card">
 		  <div class="item item-divider">
-		    Item
+		    {{itemSelecionado.nome}}
 		  </div>
 		  <div class="item item-text-wrap">
-		    {{itemSelecionado}}
+		    {{itemSelecionado.detalhe.descricao}}
 		  </div>
 		  <div class="item item-divider">
-		    XYZ
+		  	{{itemSelecionado.valor | currency: 'R$ '}}
 		  </div>
 		</div>
 	</ion-content>
