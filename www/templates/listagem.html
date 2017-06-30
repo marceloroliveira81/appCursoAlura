@@ -1,7 +1,7 @@
 <ion-view view-title="App Curso Alura">
 	<ion-content>
 		<ion-list>
-			<ion-item ng-repeat="item in listaDeItens">
+			<ion-item ng-repeat="item in listaDeItens" href="#/itemSelecionado/{{item}}">
 				{{item}}
 			</ion-item>
 		</ion-list>
