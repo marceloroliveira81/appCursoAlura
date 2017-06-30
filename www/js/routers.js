@@ -9,6 +9,12 @@ $stateProvider
 	url : '/listagem',
 	templateUrl : 'templates/listagem.html',
 	controller : 'controllerLista'
-});
+})
+
+.state('itemSelecionado', {
+	url : '/itemSelecionado/:item',
+	templateUrl : 'templates/itemSelecionado.html',
+	controller : 'controllerItemSelecionado'
+})
 
 })
