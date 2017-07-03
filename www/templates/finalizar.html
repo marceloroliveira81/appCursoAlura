@@ -1,0 +1,26 @@
+<ion-view title="Finalizar">
+	<ion-content>
+		<div class="card">
+		  <div class="item item-divider">
+		    {{item.nome}}
+		    <h4>{{item.valor | currency: 'R$ '}}</h4>
+		  </div>
+		  <div class="item item-text-wrap">
+		    <div class="list">
+			  <label class="item item-input">
+			    <input type="text" placeholder="Nome" ng-model="pessoa.nome">
+			  </label>
+			  <label class="item item-input">
+			    <input type="text" placeholder="Endereço" ng-model="pessoa.endereco">
+			  </label>
+			  <label class="item item-input">
+			    <input type="text" placeholder="E-mail" ng-model="pessoa.email">
+			  </label>
+			</div>
+		  </div>		  
+		</div>
+		<a class="button button-full button-assertive icon ion-card" ng-click="comprar()">
+		  Comprar
+		</a>
+	</ion-content>
+</ion-view>

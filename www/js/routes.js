@@ -17,4 +17,10 @@ $stateProvider
 	controller : 'controllerItemSelecionado'
 })
 
+.state('finalizar', {
+	url : '/finalizar/:itemSelecionado',
+	templateUrl : 'templates/finalizar.html',
+	controller : 'controllerFinalizar'
+})
+
 })
