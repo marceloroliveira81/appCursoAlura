@@ -1,9 +1,9 @@
 angular.module('starter')
 .service('serviceItem', function($http){
 
-	var urlRecInfo = 'http://localhost/webservice-appCursoAlura/listaDeItens.json';
+	var urlRecInfo = 'http://marcelooliveira.esy.es/webservice-appCursoAlura/listaDeItens.json';
 
-	var urlEnvInfo = 'http://localhost/webservice-appCursoAlura/finalizarCompra.php';
+	var urlEnvInfo = 'http://marcelooliveira.esy.es/webservice-appCursoAlura/finalizarCompra.php';
 
 	return {
 		obterLista : function() {
