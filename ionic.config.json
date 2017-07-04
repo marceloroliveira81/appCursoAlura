@@ -1,5 +1,8 @@
 {
   "name": "appCursoAlura",
-  "app_id": "",
-  "type": "ionic1"
+  "app_id": "8946758e",
+  "type": "ionic1",
+  "watchPatterns": [
+    "scss/**/*"
+  ]
 }
